@@ -1,0 +1,33 @@
+{
+  "name": "team-atlas-monorepo",
+  "version": "0.0.1",
+  "description": "Team Atlas' Capstone",
+  "main": "docker-compose.yml",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"NO TESTS!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.encs.vancouver.wsu.edu:monte.roden/team-atlas-monorepo.git"
+  },
+  "authors": [
+    "Monte Roden <rodenmonte@gmail.com|monter@rightline.com>",
+    "Nate Lewis <nathaniel.lewis@wsu.edu>",
+    "Lennon Hitzeman <lennon.hitzeman@wsu.edu>",
+    "Jon Carothers <jonathon.carothers@wsu.edu",
+    "Camryn Questad <camryn.questad@wsu.edu"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

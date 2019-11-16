@@ -1,0 +1,40 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/Gemfile.lock
+
+# Frontend dependencies
+node_modules
+
+# PHP dependencies
+vendor
+
+target
+/wpp-postcard/test-output
+.settings
+.classpath
+.project
+.settings
+/*/dist
+
+.DS_Store
+.idea
+.vscode
+.project
+*.iml
+
+*.pdf
+/pdf-render/src/images/*
+/pdf-render/test_images/*
+/images/*
+
+__pycache__

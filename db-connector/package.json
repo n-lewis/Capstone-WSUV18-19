@@ -1,0 +1,24 @@
+{
+  "name": "db-connector",
+  "version": "1.0.0",
+  "description": "One stop backend shop for the Atlas capstone project",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENV=PRODUCTION node index.js",
+    "dev": "ENV=DEVELOP node index.js"
+  },
+  "author": "Monte Roden, Jonathon Carothers",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.2",
+    "form-data": "^2.3.3",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sanitize-html": "^1.20.0"
+  }
+}

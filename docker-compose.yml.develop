@@ -1,0 +1,21 @@
+version: "3"
+services:
+  reverse-proxy:
+    build: ./nginx-reverse-proxy
+    ports:
+      - 4443:4443
+
+  db-connector:
+    restart: always
+    volumes:
+      - ./db-connector/index.js:/usr/src/app/index.js
+    build: ./db-connector
+
+  pdf-render:
+    build: ./pdf-render
+
+  image-gate:
+    volumes:
+      - ./images:/images
+      - ./image-gate/index.js:/usr/src/app/index.js
+    build: ./image-gate

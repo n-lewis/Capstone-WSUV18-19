@@ -1,0 +1,216 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 15px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.app-container {
+    flex: 1;
+    overflow: auto;
+}
+
+.partner-app--table {
+    margin: 10px;
+}
+
+.partner-app--content {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    margin: 8px;
+}
+
+.partner-app--label {
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.partner-app--header {
+    font-weight: 700;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
+.partner-app--value {
+    padding-right: 20px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0096d6 !important;
+    border-color: #0096d6 !important;
+}
+
+.partner-app--button {
+    background-color: #0096d6;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: block;
+    margin: 25px auto;
+    width: 160px;
+    text-align: center;
+}
+
+.logout--button {
+    position: relative;
+    top: 15px;
+    right: 15px;
+    float: right;
+}
+
+.back--button {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    float: left;
+}
+
+.partner-app-upload--button {
+    float: right;
+    margin: 25px 2%;
+    width: 160px;
+}
+
+.partner-app-upload-clicked--button {
+    background-color: #929491;
+    float: right;
+    margin: 25px 2%;
+    width: 160px;
+}
+
+.partner-app--button-hover {
+    box-shadow: 3px 7px 11px 0 rgba(0, 0, 0, 0.2);
+}
+
+.partner-app--button-pressed {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.4);
+    cursor: progress;
+}
+
+.partner-app--error-box {
+    color: blue;
+    background-color: red;
+}
+
+.partner-app--select-value {
+    display: flex;
+    align-items: center;
+    padding: 2px 2px 1px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: transparent;
+    position: relative;
+    box-sizing: content-box;
+    min-width: 64px;
+    min-height: 26px;
+    flex-grow: 1;
+    font-size: 17px;
+    margin: 0;
+}
+
+.partner-app--select-hover {
+    border-bottom-color: #0096d6;
+}
+
+.partner-app--green-check {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    margin: 0 10px;
+    fill: green;
+}
+
+.partner-app--red-bang {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    margin: 0 10px;
+    fill: red;
+}
+
+select {
+    width: 100px;
+}
+
+.border-right {
+    border-right: 1px solid #0096d6;
+}
+
+.tall {
+    padding-bottom: 15px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#main-flex {
+    display: inline-flex;
+    width: 100%;
+    height: calc(100vh - 66px);
+    /* 66px = printOS header size */
+}
+#left-bar .content {
+    width: 35vw;
+    min-width: 650px;
+}
+#left-bar {
+    border-right: 2px solid #0396d5;
+    position: relative;
+}
+
+#t1 {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.collapsed {
+    display: none;
+}
+
+#collapse-expand {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #0396d5;
+    /* No double border due to clever positioning! */
+    top: 25px;
+    /* Important that width and right are the same! */
+    right: -20px;
+    width: 20px;
+    height: 36px;
+    background: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#collapse-expand .material-icons {
+    font-size: 28px;
+    margin-left: -6px;
+    vertical-align: middle;
+}
+
+.canvas-container {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

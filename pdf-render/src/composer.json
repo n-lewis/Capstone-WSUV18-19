@@ -1,0 +1,9 @@
+{
+    "name": "team-atlas/pdf-render",
+    "description": "Render and parse pdfs intoa  set of images and metadata",
+    "type": "project",
+    "require": {
+        "smalot/pdfparser": "^0.14.0"
+    }
+}
+

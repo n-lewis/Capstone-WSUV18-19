@@ -1,0 +1,17 @@
+{
+  "name": "image-gate",
+  "version": "1.0.0",
+  "description": "Only allow users to access a static resource if they've got the right hpid",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENV=PRODUCTION node index.js",
+    "dev": "ENV=DEVELOP node index.js"
+  },
+  "author": "Monte Roden <monter@rightline.com|monte.roden@wsu.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
